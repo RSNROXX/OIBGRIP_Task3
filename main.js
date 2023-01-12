@@ -13,12 +13,12 @@ btn.addEventListener("click", (e) => {
     setTimeout(()=>{span.innerHTML = "";}, 2000);
   } else if (state.value == "fahrenheit" && degrees.value != "") {
     result.innerHTML = (parseFloat(degrees.value) * 9) / 5 + 32 + "°F";
-    setTimeout(()=>{result.innerHTML = "";}, 5000);
+    setTimeout(()=>{result.innerHTML = "";}, 4000);
   } else if (state.value == "celsius" && degrees.value != "") {
     result.innerHTML = parseFloat(degrees.value) + "°C";
-    setTimeout(()=>{result.innerHTML = "";}, 5000);
+    setTimeout(()=>{result.innerHTML = "";}, 4000);
   } else if (state.value == "kelvin" && degrees.value != "") {
     result.innerHTML = parseFloat(degrees.value) + 273.15 + " K";
-    setTimeout(()=>{result.innerHTML = "";}, 5000);
+    setTimeout(()=>{result.innerHTML = "";}, 4000);
   }
 });
